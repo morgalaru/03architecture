@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>No Name Architecture</title>
+    <meta name="description" content="Sample Start File with SCSS">
+    <meta name="author" content="Morgan Williams">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!-- fav icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Domine:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <a href="#"><img src="images/logo1x.png" alt="logo" width="52" height="50" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a>
+            <h1>No Name Architecture</h1>
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="mainWrapper">
+        <main>
+            <picture class="hero">
+                <source media="(max-width: 700px)" srcset="images/500.webp">
+                <source media="(max-width: 1100px)" srcset="images/1000.webp">
+                <img src="images/1500.webp" alt="cityscape" width="1500" height="400">
+            </picture>
+            <h2>The Napkin</h2>
+            <video controls >
+                <source src="media/napkin_hb.mp4" type="video/mp4" />
+                <source src="media/napkin_hb.webm" type="video/webm" />
+                <track
+                  label="English"
+                  kind="subtitles"
+                  srclang="en"
+                  src="media/morgan_en.vtt"
+                  default />
+                <track
+                  label="Tagalog"
+                  kind="subtitles"
+                  srclang="tl"
+                  src="media/morgan_tl.vtt"/>
+              </video>
+              <details>
+                <summary>Video Transcript</summary>
+                <p>There was this one time that I thought it'd be a really great idea to light a napkin on fire. I was thinking it'd be like when you light a paper on fire and the flame just kind of slowly spreads across the paper and then you just blow it out when you're done.</p>
+                <p>So I got the napkin and I got a lighter--I was in my kitchen--and I light it on fire and then of course the flames--it's a napkin, it's not a piece of paper. The flame goes woosh and I sit there staring at it like oh--panicking and my sister goes, "Run! Run to the sink!" So I go and I drop the napkin in the sink and I spray it with water because I thought I was going to burn the house down and then it hurt pretty bad cause it was like burning my whole hand off cause I was just holding onto the napkin.</p> 
+                <p>Umm, but luckily I did not burn the house down and you live and you learn. You do stupid things when you're like 15, but usually it turns out just fine. Thank you for coming to my TED Talk.</p>
+              </details>
+              
+        </main>
+    </div>
+    <div id="footerWrapper">
+        <footer>
+            <p>&copy; <span id="year">x</span> &bullet; Morgan Williams</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

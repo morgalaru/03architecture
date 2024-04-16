@@ -1,0 +1,14 @@
+header {
+    padding: 1.8rem $gutter;
+    h1 {font-size: 2rem;}
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-around;
+    } // end ul
+    ul li a {
+        border: none;
+    }
+} //end nav
